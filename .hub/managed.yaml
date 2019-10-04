@@ -42,6 +42,8 @@ parameters:
     value: go-lets-demo
   - name: component.github.repository.organization
     value: stackdemos
+  - name: department.name
+    value: Engineering
 outputs:
   - name: application.description
   - name: application.humanName
@@ -64,3 +66,4 @@ outputs:
   - name: component.docker.registry.url
   - name: component.github.repository.name
   - name: component.github.repository.organization
+  - name: department.name
